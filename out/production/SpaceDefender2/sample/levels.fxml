@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerForLevels">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recources/backForLevels.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="fruso" layoutX="394.0" layoutY="498.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="163.0" text="Fruso">
+         <graphic>
+            <ImageView fitHeight="67.0" fitWidth="98.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../recources/dims.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="limera" layoutX="665.0" layoutY="204.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="171.0" text="Limera">
+         <graphic>
+            <ImageView fitHeight="97.0" fitWidth="107.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../recources/Arp273Main_HubblePestana_3079.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="upion" layoutX="284.0" layoutY="150.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="171.0" text="Upion">
+         <graphic>
+            <ImageView fitHeight="97.0" fitWidth="101.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../recources/file-20180619-126537-5l632j.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Line endX="37.0" endY="9.0" layoutX="247.0" layoutY="221.0" startX="-63.0" startY="109.0" stroke="WHITE" />
+      <Line endX="121.0" endY="-49.0" layoutX="713.0" layoutY="331.0" startX="252.0" startY="46.0" stroke="WHITE" />
+      <Line endX="96.0" endY="45.0" layoutX="604.0" layoutY="584.0" startX="-47.0" startY="-8.0" stroke="WHITE" />
+      <Circle fill="WHITE" layoutX="183.0" layoutY="331.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="966.0" layoutY="378.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="701.0" layoutY="630.0" radius="8.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="backButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="28.0">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../recources/Undo-512.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

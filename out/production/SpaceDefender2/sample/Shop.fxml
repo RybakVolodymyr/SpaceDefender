@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerForShop">
+   <children>
+      <ImageView fitHeight="794.0" fitWidth="1280.0" layoutY="-33.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recources/04d7bb25ad40280c035098e4fb16e5f0.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="shipImage" fitHeight="403.0" fitWidth="465.0" layoutX="417.0" layoutY="134.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recources/redOne.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="741.0" fitWidth="889.0" layoutX="-524.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recources/15.5x23_Black_1024x1024.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="600.0" fitWidth="889.0" layoutX="910.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recources/15.5x23_Black_1024x1024.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="60.0" layoutY="60.0" prefHeight="60.0" prefWidth="206.0" text="Characteristics" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="1053.0" layoutY="60.0" prefHeight="60.0" prefWidth="137.0" text="Updates" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="addGun" layoutX="979.0" layoutY="134.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="253.0" text="Add gun">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="plusDamage" layoutX="979.0" layoutY="198.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="253.0" text="+100 damage">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="plusHeart" layoutX="979.0" layoutY="263.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="253.0" text="+ 1 heart">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="plusSuperka" layoutX="979.0" layoutY="326.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="253.0" text="Superka">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="20.0" layoutY="120.0" prefHeight="60.0" prefWidth="113.0" text="Damage: " textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="180.0" prefHeight="60.0" prefWidth="221.0" text="Number of hearts:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="248.0" prefHeight="60.0" prefWidth="206.0" text="Number of guns:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="319.0" prefHeight="60.0" prefWidth="113.0" text="Superka:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="28.0">
+         <graphic>
+            <ImageView fitHeight="37.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../recources/Undo-512.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="50.0" fitWidth="97.0" layoutX="1207.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../recources/space%20ship/kisspng-coins-game-fishing-warriors-android-5aea89fbb3f4d4.9171203815253201877371.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="numberOfCoins" layoutX="1041.0" prefHeight="60.0" prefWidth="162.0" text="0" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="damage" layoutX="147.0" layoutY="120.0" prefHeight="60.0" prefWidth="193.0" text="100" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfHearts" layoutX="241.0" layoutY="180.0" prefHeight="60.0" prefWidth="113.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfGuns" layoutX="226.0" layoutY="248.0" prefHeight="60.0" prefWidth="113.0" text="1" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="superka" layoutX="147.0" layoutY="319.0" prefHeight="60.0" prefWidth="193.0" text="Lock" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="helperButton" layoutX="979.0" layoutY="388.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="253.0" text="Helper">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Button>
+      <Label layoutX="20.0" layoutY="383.0" prefHeight="60.0" prefWidth="113.0" text="Helper:" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="helper" layoutX="147.0" layoutY="383.0" prefHeight="60.0" prefWidth="193.0" text="Lock" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
